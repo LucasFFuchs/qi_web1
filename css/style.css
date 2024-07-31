@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Ga+Maamli&display=swap');
+  
+h1{
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    font-size: 30pt;
+    text-shadow: -2px 2px 15px black;
+}
+
+#fundo{
+    background-image: url(https://media.istockphoto.com/id/1459780477/pt/vetorial/heart.jpg?s=612x612&w=0&k=20&c=w6G93HcU4A8zYf7GafBGQRVaycUDQfrhqG6EK18rVp8=);
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.5;
+    filter: blur(4px);
+}
+
+main{
+    position: fixed;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    border-radius: 50px;
+}
+
+button{
+    font-size: 25pt;
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    background-color: pink;
+    width: 150px;
+    border: none;
+    border-radius: 30px;
+    box-shadow: 3px 3px 2px black;
+    position: absolute;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgba(255, 150, 203);
+    transition: 0.1s;
+}
+
+
+#yes{
+    left: 15%;
+}
+
+#no{
+    right: 15%;
+}
